@@ -1,0 +1,12 @@
+{
+  "name": "hannacarter",
+  "version": "0.0.0",
+  "description": "Hanna Carter's personal website",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD"
+}
