@@ -1,12 +1,16 @@
 {
-  "name": "hannacarter",
+  "name": "hannacarter.com",
   "version": "0.0.0",
   "description": "Hanna Carter's personal website",
   "main": "web.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
-  "author": "",
-  "license": "BSD"
+  "repository": "https://github.com/hannacarter/hannacarter.com",
+  "author": "Hanna Carter",
+  "license": "None",
+  "dependencies": {
+    "logfmt": "~0.20.0",
+    "express": "~3.4.8"
+  }
 }

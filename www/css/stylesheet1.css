@@ -1,0 +1,279 @@
+@charset "UTF-8";
+
+body {
+	margin:0px;
+}
+/*wrapper stuff, getting things to equal out*/
+.wrapper {
+	width:100%;
+	height: auto;
+	margin:0px auto;
+}
+
+/*below is just the nav bar without the text/links*/
+.nav {
+	position: fixed;
+	width: 100%;
+	background-color: #F8F8F8;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom:thin solid #B2ABAB;
+	z-index: 10;
+	
+}
+a {
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+	font-weight: 500;
+    color: #5F5F5F;
+}
+
+a:hover {
+	color: 	black;
+}
+.nav_links {
+	width: 720px;
+	height:auto;
+	margin:auto;
+	margin-top: 8px;
+	float: right;
+	text-transform:uppercase;
+	font-size:15px;
+	text-decoration: none;
+	font-family: Helvetica, sans-serif;
+	font-weight: 500;
+}
+
+.slideshow {
+	height: 400px;
+	width: 720px;
+	margin-left: 20px;
+	float:left;
+	padding-top: 25px;
+	z-index:1;
+	margin-top: 25px;
+	
+}
+/*Sidebar stuff, trying to get level with slideshow*/
+.sidebar {
+	
+	border-right: thin solid #B2ABAB;
+	margin-left: 175px;
+	height: 400px;
+	width: 280px;
+	margin-bottom: 500px;
+	float:left;
+	margin-top:50px;	
+}
+
+h2 {
+	font-size: 14px;
+	font-weight: 500;
+	font-family: Helvetica, sans-serif;
+	text-transform:uppercase;
+	margin-left: 5px;
+	
+}
+p {
+	font-size: 11px;
+	font-weight: 300;
+	font-family: Helvetica, sans-serif;
+	margin-left: 0px;
+	margin-right: 5px;
+	line-height:14px;
+	
+}
+
+/*the below is onto page two: the portfolio page*/
+
+#personal {
+	position:relative;
+	margin-top:auto;
+	padding-top:50px;
+	font-family: Helvetica, sans-serif;
+	margin-left: 100px;
+}
+
+#schoolwork {
+	font-family: Helvetica, sans-serif;	
+	margin-left: 100px;
+}
+
+/*the below is the process page*/
+
+#processimages {
+	float:left;
+	padding-left: 500px;
+	padding-top: 30px;
+	
+	
+}
+
+#descrip {
+	padding-right: 500px;
+	margin-bottom: 20px;
+		
+}
+
+/*the below is the about page*/
+.aboutbox {
+	position: relative	;
+	float:left;
+	margin-top: 50px;
+	padding-left: 411px;
+	width:330px;
+	border-right: thin solid #B2ABAB;
+	margin-left: 40px;
+	padding-right: 5px;
+}
+
+h2.aboutbox {
+	font-size: 14px;
+	font-weight: 500;
+	font-family: Helvetica, sans-serif;
+	text-transform:uppercase;
+	margin-left: 5px;
+	margin-right: 10px;
+	
+}
+
+
+		
+
+
+.myface {
+	display:block;
+	float: left;
+	padding-top: 50px;
+	margin-left: 16px;
+	
+}
+
+/*the below is the contact page*/
+
+#dropmealine {
+	padding-right:300px;
+	position: relative;
+	width:300px;
+	height: auto;
+	margin:0px auto;
+	z-index: 1;
+	font-size: 14px;
+	font-weight: 300;
+	font-family: Helvetica, sans-serif;
+	text-transform:uppercase;
+	padding-left: 600px;
+	padding-top: 50px;
+	
+}
+
+h3 {
+	margin: 15px auto;
+	padding-top:-24px;
+	position: relative;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: Helvetica, sans-serif;
+	text-transform:uppercase;
+	
+}
+	
+/*below are the things that I found for the slideshow*/	
+
+	#dhtmlgoodies_slideshow{
+		width:800px;	/* Total width of slideshow */
+		padding-top:50px;
+		padding-left: 330px;
+
+	}
+	
+	#previewPane{
+		border:1px solid #CCCCCC;
+		margin-bottom:10px;	
+		text-align:center;
+		vertical-align:middle;
+		padding-top:10px;
+
+		position:relative;
+		
+		/* CSS HACK */
+		height: 432px;	/* IE 5.x */
+		height/* */:/**/420px;	/* Other browsers */
+		height: /**/420px;
+				
+	}
+	#previewPane img{
+		line-height:400px;
+	}
+	#previewPane #largeImageCaption{	/* CSS styling of image caption below large image */
+		font-weight:500;
+		text-align:center;
+		font-family: Helvetica, sans-serif;	/* Font to use */
+		font-size:9px;
+		
+		
+	}
+	#galleryContainer{
+		
+		height:104px;	/* Height of the images + 2 */
+		border:1px solid #CCCCCC;
+		position:relative;
+		overflow:hidden;
+		padding:1px;
+		
+		/* CSS HACK */
+		height: 104px;	/* IE 5.x - Added 2 pixels for border left and right */
+		height/* */:/**/102px;	/* Other browsers */
+		height: /**/102px;
+				
+	}
+	#arrow_left{
+		position:absolute;
+		left:0px;
+		z-index:10;
+		background-color: #FFF;
+		padding:1px;
+	}
+	#arrow_right{
+		position:absolute;
+		right:0px;
+		z-index:10;
+		background-color: #FFF;
+		padding:1px;		
+	}
+	#theImages{
+		position:absolute;
+		height:100px;
+		left:40px;
+		width:100000px;
+		
+	}
+	#theImages #slideEnd{
+		float:left;
+	}
+	#theImages img{
+		float:left;
+		padding:1px;
+		filter: alpha(opacity=50);
+		opacity: 0.5;
+		cursor:pointer;
+		border:0px;
+	}
+
+	#waitMessage{
+		display:none;
+		position:absolute;
+		left:200px;
+		top:150px;
+		background-color:#FFF;
+		border:3px double #000;
+		padding:4px;
+		color:#555;
+		font-size:0.9em;
+		font-family:arial;	
+	}
+	
+	#theImages .imageCaption{
+		display:none;
+	}
